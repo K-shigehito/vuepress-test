@@ -8,9 +8,9 @@ sidebar: true
 
 [[toc]]
 
-# 大見出し
-
-## 中見出し
+# 見出し1
+## 見出し2
+### 見出し3
 本文
 
 ## 絵文字変換
@@ -19,10 +19,20 @@ sidebar: true
 - :thinking:
 - :mask:
 
+## カスタムブロック
 ::: tip
-すごい
+test
 :::
 
+::: warning
+test
+:::
+
+::: danger
+test
+:::
+
+## コードブロック
 ```js{5}
 export default {
   name: 'MyComponent',
