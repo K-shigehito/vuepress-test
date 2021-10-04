@@ -3,23 +3,25 @@ title: VuePress study
 meta:
   - name: description
     content: 説明
-sidebar: true
 ---
 
-[[toc]]
+# 見出し 1
 
-# 見出し1
-## 見出し2
-### 見出し3
+## 見出し 2
+
+### 見出し 3
+
 本文
 
 ## 絵文字変換
+
 - :smile:
 - :zipper_mouth_face:
 - :thinking:
 - :mask:
 
 ## カスタムブロック
+
 ::: tip
 test
 :::
@@ -33,16 +35,18 @@ test
 :::
 
 ## コードブロック
+
 ```js{5}
 export default {
-  name: 'MyComponent',
+  name: "MyComponent",
   data() {
     return {
-      message: 'ハイライト'
-    }
-  }
-}
+      message: "ハイライト",
+    };
+  },
+};
 ```
 
 ## コンポーネント
+
 <MyComponent />
